@@ -1,0 +1,120 @@
+# VS Code Setup Assignment
+
+## 1. Installation of VS Code
+
+### Steps to Download and Install Visual Studio Code on Windows 11:
+1. Go to the official Visual Studio Code website: [Visual Studio Code](https://code.visualstudio.com/Download).
+2. Click on the download link for Windows. The download will start automatically.
+3. Open the installer (`VSCodeSetup-x64-<version>.exe`).
+4. Follow the installation prompts:
+   - Accept the license agreement.
+   - Choose the installation location.
+   - Select additional tasks (optional), such as creating a desktop icon and adding VS Code to the PATH.
+5. Click `Install` to begin the installation.
+6. Once the installation is complete, click `Finish`.
+
+### Prerequisites:
+- **Windows 11**: Ensure your system is running Windows 11.
+- **Administrator Privileges**: You may need administrator rights to install applications on your computer.
+
+## 2. First-time Setup
+
+### Initial Configurations and Settings for Optimal Coding Environment:
+1. **Open Visual Studio Code**: After installation, open VS Code.
+2. **Set Up Sync**: Sign in with your GitHub or Microsoft account to sync your settings across devices.
+3. **Install Extensions**: Click on the Extensions icon in the Activity Bar on the side of the window or press `Ctrl+Shift+X`. Search for and install essential extensions.
+4. **Configure Settings**:
+   - Go to `File` > `Preferences` > `Settings` or press `Ctrl+,`.
+   - Adjust settings such as:
+     - **Theme**: Choose a theme from the available options.
+     - **Font Size**: Set a comfortable font size (e.g., 14px).
+     - **Auto Save**: Enable auto-save to automatically save files after a delay.
+
+## 3. User Interface Overview
+
+### Main Components of the VS Code User Interface:
+1. **Activity Bar**: Located on the far left side of the screen.
+   - Purpose: Allows quick access to different views like Explorer, Search, Source Control, Run, and Extensions.
+2. **Side Bar**: Located next to the Activity Bar.
+   - Purpose: Displays different panels depending on the view selected in the Activity Bar, such as the file explorer or search results.
+3. **Editor Group**: The main area where you edit files.
+   - Purpose: Allows you to open and edit multiple files simultaneously. You can split the editor to view files side by side.
+4. **Status Bar**: Located at the bottom of the window.
+   - Purpose: Provides information about the current file and project, such as line number, column number, language mode, Git branch, and more.
+
+## 4. Command Palette
+
+### What is the Command Palette and How to Access it:
+1. **Command Palette**: A powerful tool in VS Code that provides access to various commands.
+2. **Accessing the Command Palette**: 
+   - Press `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Mac).
+3. **Common Tasks**:
+   - **Open Settings**: Type `Preferences: Open Settings`.
+   - **Install Extensions**: Type `Extensions: Install Extensions`.
+   - **Run Terminal**: Type `Terminal: Create New Integrated Terminal`.
+
+## 5. Extensions in VS Code
+
+### Role of Extensions and How to Manage Them:
+1. **Role of Extensions**: Enhance the functionality of VS Code by adding support for additional languages, debuggers, tools, and features.
+2. **Finding and Installing Extensions**:
+   - Click the Extensions icon in the Activity Bar or press `Ctrl+Shift+X`.
+   - Search for an extension by name and click `Install`.
+3. **Managing Extensions**:
+   - Go to `Extensions` view (`Ctrl+Shift+X`).
+   - Click on installed extensions to view details, disable, or uninstall them.
+4. **Essential Extensions for Web Development**:
+   - **Live Server**: Launch a development local server with live reload.
+   - **HTML Snippets**: Adds HTML snippets.
+   - **JavaScript (ES6) code snippets**: Adds JavaScript code snippets.
+
+## 6. Integrated Terminal
+
+### How to Open and Use the Integrated Terminal:
+1. **Opening the Integrated Terminal**:
+   - Go to `View` > `Terminal` or press `Ctrl+`` (backtick).
+2. **Using the Integrated Terminal**:
+   - Allows you to run command-line tools from within VS Code.
+   - You can have multiple terminal instances and switch between them.
+3. **Advantages**:
+   - Keeps everything within a single window.
+   - Integrates well with VS Code’s environment and project structure.
+
+## 7. File and Folder Management
+
+### How to Create, Open, and Manage Files and Folders:
+1. **Creating Files and Folders**:
+   - Right-click in the Explorer pane and select `New File` or `New Folder`.
+   - Name the file or folder and press Enter.
+2. **Opening Files**:
+   - Double-click a file in the Explorer pane to open it in the Editor Group.
+3. **Managing Files**:
+   - Drag and drop files to move them.
+   - Use the context menu (right-click) to rename, delete, or duplicate files.
+4. **Navigating Between Files**:
+   - Use the Explorer pane.
+   - Press `Ctrl+P` to quickly open files by name.
+   - Use `Ctrl+Tab` to switch between open files.
+
+## 8. Settings and Preferences
+
+### How to Customize Settings in VS Code:
+1. **Accessing Settings**:
+   - Go to `File` > `Preferences` > `Settings` or press `Ctrl+,`.
+2. **Changing Theme**:
+   - Search for `Color Theme` in the settings or use the Command Palette (`Ctrl+Shift+P`) and type `Color Theme`.
+   - Select your preferred theme.
+3. **Changing Font Size**:
+   - Search for `Font Size` in the settings.
+   - Adjust the value to your desired font size.
+4. **Changing Keybindings**:
+   - Go to `File` > `Preferences` > `Keyboard Shortcuts` or press `Ctrl+K Ctrl+S`.
+   - Search for a command and click the pencil icon to change its keybinding.
+
+## 9. Debugging in VS Code
+
+### Steps to Set Up and Start Debugging a Simple Program:
+1. **Open the Program File**: Open the file you want to debug.
+2. **Set Breakpoints**: Click in the gutter next to the line numbers to set breakpoints.
+3. **Open the Debug View**:
+   - Click on the Debug icon in the Activity
